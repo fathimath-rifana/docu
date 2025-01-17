@@ -130,12 +130,26 @@ div.head {
 .head img {
     color: white;
 }
-div.cart {}
+div.cart {
+
+}
+.cart h3 {
+    margin-left: 65px;
+    margin-right: 72px;
+    background-color: red;
+    border-radius: 7px;
+    width: 24px;
+    height: 48px;
+    margin-top: 35px;
+    color: red;
+    
+}
 .cart p{
-    padding-left: 57px;
-    font-size: 29px;
+    padding-left: 100px;
+    font-size: 30px;
     color: red;
     font-weight: bold;
+    margin-top: -65px;
 }
 .cart h1 {
     padding-left: 63px;
@@ -161,6 +175,9 @@ div.categories {
     font-size: 20px;
     padding-left: 25px;
 }
+.phone h2 a {
+    text-decoration: none;
+}
 .categories div.computer {
     margin-left: 295px;
     margin-top: -134px;
@@ -178,6 +195,9 @@ div.categories {
 .computer h2 {
     font-size: 20px;
     padding-left: 9px;
+}
+.computer h2 a {
+    text-decoration: none;
 }
 .categories div.watch {
     margin-left: 487px;
@@ -197,6 +217,9 @@ div.categories {
     font-size: 20px;
     padding-left: 1px;
 }
+.watch h2 a {
+    text-decoration: none;
+}
 .categories div.heady {
     margin-left: 672px;
     margin-top: -133px;
@@ -215,6 +238,9 @@ div.categories {
     font-size: 20px;
     padding-left: 2px;
 }
+.heady h2 a {
+    text-decoration: none;
+}
 .categories div.game {
     margin-left: 855px;
     margin-top: -133px;
@@ -223,7 +249,8 @@ div.categories {
     border-bottom-style: groove;
     border-top-style: groove;
     border-left: groove;
-    border-right: groove
+    border-right: groove;
+    height: 128px;
 }
 .game img {
     margin-left: 25px;
@@ -232,6 +259,9 @@ div.categories {
 .game h2 {
     font-size: 20px;
     padding-left: 25px;
+}
+.game h2 a {
+    text-decoration: none;
 }
 .categories div.camera {
     margin-left: 1036px;
@@ -250,6 +280,9 @@ div.categories {
 .camera h2 {
     font-size: 20px;
     padding-left: 25px;
+}
+.camera h2 a {
+    text-decoration: none;
 }
 div.buy {
     margin-top: 90px;
@@ -428,6 +461,10 @@ div.all {
     margin-left: 17px;
     color: white;
 }
+.all h4 a {
+    text-decoration: none;
+    color: white;
+}
 div.service {
     margin-left: 34px;
 }
@@ -521,8 +558,7 @@ div.footer {
 .excl h2{
     font-size: 31px;
 }
-.excl h3{
-
+.excl h3  {
 }
 .excl p {
     font-size: 14px;
@@ -536,6 +572,7 @@ div.footer {
     padding-top: 10px;
     margin-bottom: -23px;
     margin-top: 22px;
+    border-style: groove;
 }
 .excl img{
     margin-left: 121px;
@@ -562,6 +599,10 @@ div.sup {
     font-weight: 100;
     font-size: 20px;
 }
+.sup h2 a {
+    text-decoration: none;
+    color: white;
+}
 .sup h3{
     font-weight: 100px;
     font-size: 22px;
@@ -581,24 +622,44 @@ div.count {
     font-weight: 100;
     font-size: 20px;
 }
+.act h2 a{
+    text-decoration: none;
+    color: white;
+}
 .act h3{
     font-weight: 100;
     font-size: 20px;
+}
+.act h3 a {
+    text-decoration: none;
+    color: white;
 }
 .act h4 {
     font-weight: 100;
     font-size: 20px;
     margin-top: 24px;
-} 
+}
+.act h4 a {
+    text-decoration: none;
+    color: white;
+}
 .act h5{
    font-weight: 100;
    font-size: 20px;
    margin-top: -6px;
- }
+}
+.act h5 a {
+    text-decoration: none;
+    color: white;
+}
 .act h6 {
     font-weight: 100;
    font-size: 20px;
    margin-top: -15px;
+}
+.act h6 a {
+    text-decoration: none;
+    color: white; 
 }
 div.link {
     margin-left: 671px;
@@ -614,17 +675,34 @@ div.quick {
     font-weight: 100;
     font-size: 20px;
 }
+.link h2 a {
+    text-decoration: none;
+    color: white;
+}
 .link h3{
     font-weight: 100;
     font-size: 20px;
+}
+.link h3 a {
+    text-decoration: none;
+    color: white;
 }
 .link h4 {
     font-weight: 100;
     font-size: 20px;
     margin-top: 24px;
 } 
+.link h4 a {
+    text-decoration: none;
+    color: white;
+}
+.link h5 {
 
-
+}
+.link h5 a {
+    text-decoration: none;
+    color: white;
+}
 div.app {
     margin-left: 850px;
     margin-top: -248px;
@@ -640,7 +718,7 @@ div.stor {
     margin-top: 22px;
 }
 div.emt {
-    margin-left: 12px;
+    margin-left: 17px;
 }
 div.twi {
     margin-left: 55px;
